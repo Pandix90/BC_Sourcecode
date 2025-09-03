@@ -1,0 +1,17 @@
+# 1. Initialize git repository (if not already initialized)
+git init
+
+# 2. Create a sample file (README.md)
+echo "# My Project" > README.md
+
+# 3. Stage the file
+git add .
+
+# 4. Make the first commit (this creates HEAD)
+git commit -m "Initial commit"
+
+# 5. Create and switch to a new branch named Test_branch
+git checkout -b Test_branch
+
+# 6. (Optional) Push the branch to remote (Azure DevOps)
+git push --set-upstream origin Test_branch
